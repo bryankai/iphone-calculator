@@ -59,6 +59,7 @@ const Buttons = ({display, setDisplay }) => {
     <div className="buttons">
         {NUMBERS.map(n=> (
         <Button 
+          classes="number-button"
           key={n}
           value={n}
           handleClick={handleNumberClick}
@@ -66,17 +67,20 @@ const Buttons = ({display, setDisplay }) => {
       ))}
       {OPERATORS.map(n=>(
         <Button 
+          classes="operator-button"
           key={n}
           value={n}
           handleClick={handleOperatorClick}
           />
       ))}
       <Button 
+        classes="operator-button"
         key="="
         value="="
         handleClick={handleEquals}
       />
       <Button 
+        class="special-button"
         key="C"
         value="C"
         handleClick={handleClear}

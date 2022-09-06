@@ -33,16 +33,20 @@ button{
   border-radius:50%;
   height: 110px;
   width: 110px;
+  border: none;
 }
 
-.operator{
-  background: orange;
+.operator-button{
+  background: #f69807;
+  color: white;
 }
 
 .number-button{
-  background: slategray;
+  background: #313131;
+  color: white;
 }
 
 .special-button{
-  background: lightgray;
+  background: #9f9f9f;
+  color: black;
 }

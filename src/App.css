@@ -1,0 +1,48 @@
+.App {
+  background: black;
+  color: white;
+  height:1218px;
+  width: 563px;
+  border-radius:50px;
+  font-size: 5rem;
+  padding: 20px;
+}
+
+.top {
+  height: 250px;
+  padding: 0 20px;
+  font-size:1rem;
+}
+
+.display {
+  height: 130px;
+  text-align: right;
+  padding:20px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: repeat(5,1fr);
+  grid-template-columns: repeat(4,1fr);
+}
+
+button{
+  font-size: 3rem;
+  border-radius:50%;
+  height: 110px;
+  width: 110px;
+}
+
+.operator{
+  background: orange;
+}
+
+.number-button{
+  background: slategray;
+}
+
+.special-button{
+  background: lightgray;
+}
